@@ -12,7 +12,7 @@ brew install graphicsmagick
 > 首先尝试：
 >
 > ```bash
-> sudo chown -R fintopia /usr/local
+> sudo chown -R $(whoami) /usr/local
 > ```
 >
 > 但是在高版本的 MacOS 中会报错：
